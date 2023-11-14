@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3071361260968116229}
   - component: {fileID: 5531711820871242325}
   - component: {fileID: 1567869734338723106}
+  - component: {fileID: 6920941805765969073}
   m_Layer: 0
   m_Name: VerticalMovingObstacle
   m_TagString: Obstacle
@@ -111,3 +112,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &6920941805765969073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8984401118671406033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5cc4033abe09824baf3accd57519ac8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _duration: 2
+  _moveDistance: 2
